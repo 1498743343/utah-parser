@@ -9,16 +9,38 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * A test to load up a file and confirm it parses ok
  */
 public class ExamplesTest {
+
+    @Test
+    public void testUIM() throws IOException {
+        String configResource = "uim_access_log.xml";
+        String fileResource = "uim_access_log.txt";
+        URL configURL = Thread.currentThread().getContextClassLoader().getResource(configResource);
+        Config config = new ConfigLoader().loadConfig(configURL);
+
+        // load a real file
+        List<Map<String, String>> observedValues = new ArrayList<>();
+        try (Reader in = new InputStreamReader(Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResourceAsStream
+                (fileResource)))) {
+            Parser parser = Parser.parse(config, in);
+            while (true) {
+                Map<String, String> record = parser.next();
+                if (null == record) {
+                    break;
+                } else {
+                    observedValues.add(record);
+                }
+            }
+        }
+        System.out.println("=========================");
+        System.out.println(observedValues);
+        System.out.println("=========================");
+    }
 
     /**
      * In this test we load up the sample config and then process the sample input file, and then confirm the
@@ -365,8 +387,8 @@ public class ExamplesTest {
 
         // load a real file
         List<Map<String, String>> observedValues = new ArrayList<>();
-        try (Reader in = new InputStreamReader(Thread.currentThread().getContextClassLoader().getResourceAsStream
-                (fileResource))) {
+        try (Reader in = new InputStreamReader(Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResourceAsStream
+                (fileResource)))) {
             Parser parser = Parser.parse(config, in);
             while (true) {
                 Map<String, String> record = parser.next();

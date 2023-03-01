@@ -1,0 +1,108 @@
+2023-02-08 00:00:05.795 [INFO] [qtp1830969563-16107028] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@354e535f[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@5d6c149]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.172
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4755ms
+
+
+2023-02-08 00:00:05.816 [INFO] [qtp1830969563-11805191] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@634de959[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@6d06a7e2]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.173
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4404ms
+
+
+2023-02-08 00:00:05.849 [INFO] [qtp1830969563-16125807] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@71994609[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@f98bba9]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.20.4.28
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4211ms
+
+
+2023-02-08 00:00:05.872 [INFO] [qtp1830969563-11798872] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@6571a20[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@41c3baa4]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.172
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4635ms
+
+
+2023-02-08 00:00:05.878 [INFO] [qtp1830969563-11805137] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@2397abac[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@6b2cb595]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.170
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4026ms
+
+
+2023-02-08 00:00:08.341 [INFO] [qtp1830969563-16125887] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/rytds/
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimRytdController.selectRyyds()
+[调用方法参数] 	[]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.163
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	62ms
+
+
+2023-02-08 00:00:08.893 [INFO] [qtp1830969563-16125812] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/rytds/
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimRytdController.selectRyyds()
+[调用方法参数] 	[]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.170
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	57ms
+
+
+2023-02-08 00:00:11.758 [INFO] [qtp1830969563-16125848] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/rytds/
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimRytdController.selectRyyds()
+[调用方法参数] 	[]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.172
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	62ms
+
+
+2023-02-08 00:00:13.225 [INFO] [qtp1830969563-527440] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/rytds/
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimRytdController.selectRyyds()
+[调用方法参数] 	[]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.0.101.173
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	58ms
+
+
+2023-02-08 00:00:18.537 [INFO] [qtp1830969563-11805060] com.thunisoft.AAP.uimapi.log.ApiAccessLogAspect.doAround(ApiAccessLogAspect.java:144)
+[调用接口地址] 	http://136.0.101.91:8081/uim-api/api/corps/0/users
+[请求类型] 		GET
+[调用方法] 		public java.lang.String com.thunisoft.AAP.uimapi.controller.UimOrganController.getOrgans(com.thunisoft.AAP.uimapi.controller.Param,javax.servlet.http.HttpServletRequest)
+[调用方法参数] 	[com.thunisoft.AAP.uimapi.controller.Param@5406824d[range=recursion,valid=<null>,id=<null>,type=users,pid=0,ptype=corps,secondment=false], org.apache.shiro.web.servlet.ShiroHttpServletRequest@32b46995]
+[UIM-SDK调用] 	false
+[调用方ip地址] 	136.11.0.146
+[客户端信息] 	UNKNOWN-UNKNOWN
+[方法运行耗时] 	4197ms

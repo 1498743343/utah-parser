@@ -1,0 +1,20 @@
+<config>
+
+    <searches>
+        <search id="duration"><![CDATA[(\d+)ms]]></search>
+        <search id="stringTo"><![CDATA[(.+?)[\n\r]]]></search>
+        <search id="datePattern"><![CDATA[\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}.\d{3}]]></search>
+    </searches>
+    <delim at-start="true">^{datePattern}.*</delim>
+    <values>
+        <value id="callTime"><![CDATA[({datePattern})]]></value>
+        <value id="url"><![CDATA[\[调用接口地址\]\s\t{stringTo}]]></value>
+        <value id="requestType"><![CDATA[\[请求类型\]\s\t{2}{stringTo}]]></value>
+        <value id="requestMethod"><![CDATA[\[调用方法\]\s\t{2}{stringTo}]]></value>
+        <value id="requestMethodParams"><![CDATA[\[调用方法参数\]\s\t{stringTo}]]></value>
+        <value id="isCallSDK"><![CDATA[\[UIM-SDK调用\]\s\t{stringTo}]]></value>
+        <value id="ip"><![CDATA[\[调用方ip地址\]\s\t{stringTo}]]></value>
+        <value id="clientInfo"><![CDATA[\[客户端信息\]\s\t{stringTo}]]></value>
+        <value id="duration"><![CDATA[\[方法运行耗时\]\s\t{duration}]]></value>
+    </values>
+</config>
